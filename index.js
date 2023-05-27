@@ -5,3 +5,4 @@ const graph = new CityGraph(cities, routes);
 
 console.log(graph.calculateDistance('Delhi', 'Chennai'));
 console.log(graph.calculateDistance('Banglore', 'Nagpur'));
+console.log(graph.calculateDistance('Banglore', 'Haryana'));

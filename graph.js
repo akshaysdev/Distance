@@ -35,6 +35,6 @@ module.exports = class CityGraph {
       }
     }
 
-    return answer;
+    return 'Invalid route';
   }
 };
