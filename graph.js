@@ -19,6 +19,8 @@ module.exports = class CityGraph {
   }
 
   calculateDistance(start, end, visited = new Set(), answer = 0) {
+    if (start === end) return 'You are already there!';
+
     visited.add(start);
 
     const destinations = this.adjacencyList.get(start);
@@ -35,6 +37,6 @@ module.exports = class CityGraph {
       }
     }
 
-    return 'Invalid route';
+    return 'Invalid route!';
   }
 };
