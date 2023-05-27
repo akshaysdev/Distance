@@ -1,8 +1,13 @@
 # Find distance between two cities
 
-## Add routes in routes.js file
+## Add routes in routes.js file 
+
 ```
-    ['city1', 'city2']
+['Chennai', 'Banglore', 100]
 ```
 
-## Run node index.js from the root of your directory
+## Run the following command from root directory
+
+```
+node index
+```
